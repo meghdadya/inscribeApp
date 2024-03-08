@@ -1,0 +1,14 @@
+package com.example.domain.usecases.note
+
+
+import com.example.domain.models.NoteDomainModel
+import com.example.domain.repositories.NoteRepository
+import com.example.domain.usecases.BaseUseCase
+import javax.inject.Inject
+
+class GetNoteUseCase @Inject constructor(private val noteRepository: NoteRepository) :
+    BaseUseCase<Int, NoteDomainModel>() {
+    override suspend fun execute(param: Int): NoteDomainModel =
+        noteRepository.getNote(param)
+
+}
