@@ -1,5 +1,5 @@
 object ProjectConfig {
-    const val appId = "com.anikelectronic.rapyton"
+    const val appId = "com.example.inscribeapp"
     const val compileSdk = 34
     const val minSdk = 26
     const val targetSdk = 34
