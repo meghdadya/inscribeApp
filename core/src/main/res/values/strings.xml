@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">InscribeApp</string>
+    <string name="nav_bottom_text_note">note</string>
+    <string name="nav_bottom_text_audio">audio</string>
+    <string name="nav_bottom_text_message">message</string>
+    <string name="nav_bottom_text_setting">setting</string>
+    <string name="selectable_btn_text_all">All</string>
+    <string name="selectable_btn_text_work">Work</string>
+    <string name="selectable_btn_text_life_style">Life Style</string>
+    <string name="text_recent_all_note">Recent All Note</string>
+    <string name="search_your_notes">Search your notes</string>
+    <string name="text_button_text_labels">Labels</string>
+    <string name="note_title_place_holder_text">Title</string>
+    <string name="note_content_place_holder_text">Note</string>
+
+</resources>
